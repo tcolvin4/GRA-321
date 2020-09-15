@@ -1,7 +1,57 @@
-* {
-
+h1 {font-family: 'Gayathri', sans-serif;
+   font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+h2 {font-family: 'Gayathri', sans-serif;
+   font-weight: 400;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   margin-right: 150px;
+   margin-left: 80px;
+}
+h3 {font-family: 'Gayathri', sans-serif;
+   font-weight: 400;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   margin-right: 150px;
+   margin-left: 80px;
 }
 
-h1 {
+p {font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   margin-right: 150px;
+   margin-left: 80px;
+}
 
+a {font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   margin-right: 150px;
+   margin-left: 80px;
+}
+
+ul {font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   margin-right: 150px;
+   margin-left: 80px;
+}
+
+li {font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   margin-right: 150px;
+   margin-left: 80px;
+ }
+
+a:hover {
+  background-color: blue;
 }
