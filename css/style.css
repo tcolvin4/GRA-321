@@ -28,27 +28,8 @@ li {font-family: 'Lato', sans-serif;
 
  }
 
-
-button {
-  background-color:#4A7080;
-  border: none;
-  color:white;
-  font-family: 'Gayathri', sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  padding: 1em 2em 1em 2em;
-}
-
-a {
-  background-color: white;
-  color:#000;
-  display:block;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  padding:2em;
-  width:20%;
-  text-decoration:none;
-}
+a {font-family: 'Lato', sans-serif;
+  font-weight: 400;}
 
 .padding-hover:hover {
   background-color: #7BDB6E;
