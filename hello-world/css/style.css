@@ -1,7 +1,38 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+h1 {font-family: 'Gayathri', sans-serif;
+   font-weight: 700;
+
+}
+h2 {font-family: 'Gayathri', sans-serif;
+   font-weight: 400;
+
+}
+h3 {font-family: 'Gayathri', sans-serif;
+   font-weight: 400;
 
 }
 
-h1 {
+p {font-family: 'Lato', sans-serif;
+   font-weight: 400;
 
+}
+
+a {font-family: 'Lato', sans-serif;
+   font-weight: 400;
+
+}
+
+ul {font-family: 'Lato', sans-serif;
+   font-weight: 700;
+
+}
+
+li {font-family: 'Lato', sans-serif;
+   font-weight: 700;
+
+ }
+
+a:hover {
+  background-color: blue;
 }
