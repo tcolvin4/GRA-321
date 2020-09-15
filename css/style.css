@@ -28,16 +28,13 @@ li {font-family: 'Lato', sans-serif;
 
  }
 
-a:hover {
-  background-color: blue;
-}
 
 button {
   background-color:#4A7080;
   border: none;
   color:white;
   font-family: 'Gayathri', sans-serif;
-     font-weight: 400;
+  font-weight: 400;
   text-transform: uppercase;
   padding: 1em 2em 1em 2em;
 }
@@ -54,7 +51,7 @@ a {
 }
 
 .padding-hover:hover {
-  background-color: #B5DCED;
+  background-color: #7BDB6E;
   color:white;
   text-decoration:underline;
 }
