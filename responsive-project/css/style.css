@@ -269,7 +269,59 @@ bottom:2%;
 /* New Slider CSS End */
 
 /* Radio Button Tabs */
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.stv-radio-tabs-wrapper {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #428bca;
+  padding: 0 10px;
+  position: relative;
+}
+
+input.stv-radio-tab {
+  position: absolute;
+  left: -99999em;
+  top: -99999em;
+
+	& + label {
+		cursor: pointer;
+		float: left;
+		border: 1px solid #aaa;
+		border-bottom: 0;
+		background-color: #fff;
+		margin-right: -1px;
+		padding: .5em 1em;
+		position: relative;
+
+     &:hover {
+       background-color: #eee;
+     }
+	}
+
+	&:checked + label {
+		box-shadow: 0 3px 0 -1px #fff,
+       inset 0 5px 0 -1px #13CD4A;
+		background-color: #fff;
+     border-color: #428bca;
+		z-index: 1;
+	}
+}
 /* Radio Button Tabs */
 
 h1 {
