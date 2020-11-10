@@ -24,26 +24,30 @@ HTML body
 <!--
 Header
 -->
-<header>
-  <div class="header-nav">
-  <div class="nav-bar">
+<header class="header">
 
-      <img id="logo" src="https://raw.githubusercontent.com/tcolvin4/GRA-321/master/responsive-project/img/charlies.png" alt="charlies logo">
-      <label for="toggle">&#9776;</label>
-  </div>
-      <input type="checkbox" id="toggle">
-      <ul class="menu-items">
+    <li><a href="" class="logo"><img src="https://raw.githubusercontent.com/tcolvin4/GRA-321/master/responsive-project/img/charlies.png" alt="Charlie's logo" id="logo"/></a></li>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
       <li><a href="#home">Home</a></li>
       <li><a href="#menu">Menu</a></li>
-      <li> <a href="#locations">Locations</a></li>
-      </ul>
-</div>
+      <li><a href="#locations">Locations</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
 </header>
 
-<div id="aboutus">
-      <div class="aboutimg"></div>
+
+
+
+
+
+
+
 
 <section id="home" class="centerbody">
+  <br><br><br>
   <h1>Home</h1>
 
 
@@ -471,7 +475,7 @@ Menu Item
     <br>
 
   </div>
-  <div class="column middle">
+  <div class="column middle01">
     <a href="https://rb.gy/gs26ac"><img src="https://raw.githubusercontent.com/tcolvin4/GRA-321/master/responsive-project/img/location01.png" class="locationimg" alt="Maps Link"></a>
     <br>
     <a href="https://rb.gy/s2yosu"><img src="https://raw.githubusercontent.com/tcolvin4/GRA-321/master/responsive-project/img/location01.png" class="locationimg" alt="Maps Link"></a>
@@ -479,7 +483,7 @@ Menu Item
     <a href="https://rb.gy/dnajfx"><img src="https://raw.githubusercontent.com/tcolvin4/GRA-321/master/responsive-project/img/location01.png" class="locationimg" alt="Maps Link"></a>
     <br>
   </div>
-  <div class="column right" style="background-color:#ccc;">
+  <div class="column right" style="background-color:#d9d9d9;">
     <h2>Charlie's Café Design North</h2>
       <p>College of Design North.<br> 810 S Forest Mall, Tempe, AZ 85287<br>480-884-9277</p>
       <br><br>
@@ -490,7 +494,10 @@ Menu Item
           <p>Hayden Library.<br> 300 E Orange St, Tempe, AZ 85287<br>480-323-3622</p>
   </div>
 </div>
+</section>
 
+<section id="contact" class="centerbody">
+<br>
 <h1>Contact Us</h1>
 <textarea rows="1" cols="50">
 Email Address
