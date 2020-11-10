@@ -41,7 +41,13 @@ h2{
   font-size: 16pt;
 }
 
-body {background-color: #faf0e6;}
+body {
+  background-color: #faf0e6;
+}
+
+a{
+  color: black;
+}
 
 
 
