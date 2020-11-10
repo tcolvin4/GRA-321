@@ -49,11 +49,6 @@ a{
   color: black;
 }
 
-.hours {
-  text-align: center;
-}
-
-
 
 
 
@@ -304,6 +299,7 @@ bottom:2%;
 .column1 {
   float: right;
   width: 8%;
+  min-width: 30px
   padding: 0px;
   height: 50px; /* Should be removed. Only for demonstration */
 }
