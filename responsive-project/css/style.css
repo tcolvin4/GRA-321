@@ -29,6 +29,14 @@ body {
   width: 100%;
 }
 
+.mediaimg {
+  display: block;
+  max-width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 20px;
+}
+
 h2{
   font-size: 16pt;
 }
@@ -284,6 +292,13 @@ bottom:2%;
   height: 500px; /* Should be removed. Only for demonstration */
 }
 
+.column1 {
+  float: right;
+  width: 8%;
+  padding: 0px;
+  height: 50px; /* Should be removed. Only for demonstration */
+}
+
 .left, .middle01 {
   width: 25%;
 
@@ -300,6 +315,9 @@ bottom:2%;
   display: table;
   clear: both;
 }
+
+
+
 
 
 
