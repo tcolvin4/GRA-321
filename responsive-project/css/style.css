@@ -23,13 +23,15 @@ body {
 
 .locationimg {
   display: block;
-  max-width: 200px;
+  max-width: 150px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
 
-
+h2{
+  font-size: 16pt;
+}
 
 
 
@@ -276,7 +278,7 @@ bottom:2%;
 .column {
   float: left;
   padding: 10px;
-  height: 650px; /* Should be removed. Only for demonstration */
+  height: 500px; /* Should be removed. Only for demonstration */
 }
 
 .left, .middle {
