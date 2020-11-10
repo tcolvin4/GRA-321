@@ -276,15 +276,17 @@ bottom:2%;
 .column {
   float: left;
   padding: 10px;
-  height: 800px; /* Should be removed. Only for demonstration */
+  height: 650px; /* Should be removed. Only for demonstration */
 }
 
 .left, .middle {
   width: 25%;
+
 }
 
 .right {
-  width: 45%;
+  width: auto;
+  min-width: 35%;
 }
 
 /* Clear floats after the columns */
