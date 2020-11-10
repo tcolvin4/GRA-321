@@ -13,6 +13,22 @@ body {
   width: 50%;
 }
 
+.centerbody {
+  display: block;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 93%;
+}
+
+
+
+
+
+
+
+
+
 
 /* menu tabs */
 .tabs {
