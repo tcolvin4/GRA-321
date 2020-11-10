@@ -1,6 +1,314 @@
-* {
+/* Imported CSS */
+html {
+font-size: 16px;
+box-sizing: border-box;
+}
+
+body {
+  background-color: #261818;
+   margin:0;
+  padding:0;
+}
+
+header {
+background-color: #F7F7DF;
+width: 100%;
 
 }
+
+
+.header-nav {
+  background-color: #F7F7DF;
+  width:100%;
+}
+
+.nav-bar {
+  display:flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
+}
+
+#logo {
+height:100px;
+}
+
+#toggle {
+display:none;
+}
+
+label {
+font-size: 50px;
+line-height:100px;
+cursor: pointer;
+background-color: #F7F7DF;
+}
+
+ul.menu-items {
+padding: 20px 0 0 0;
+margin: 0;
+list-style-type: none;
+text-align: left;
+
+}
+
+ul.menu-items a {
+  text-decoration:none;
+  line-height:40px;
+  text-align: center;
+  color: white;
+  display:block;
+  background-color:black;
+}
+
+ul.menu-items a:first-of-type {
+  padding-top:10px;
+}
+
+ul.menu-items a:last-of-type {
+  padding-bottom:10px;
+}
+
+#toggle:checked ~ ul.menu-items {
+  display:none;
+}
+
+#home, #menu, #locations {
+  height:500px;
+}
+
+/*Desktop Styles*/
+
+@media only screen and (min-width: 500px) {
+  .header-nav {
+  background-color: #F7F7DF;
+  width:90%;
+  margin: 0 auto;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+  .menu-items li a {
+  background-color: #F7F7DF;
+    color: black;
+    border-bottom: 5px solid black;
+  }
+
+.nav-bar {
+  display:inline-block;
+  position: relative;
+  padding: 30px 0 30px 0;
+  width:60%;
+}
+
+
+#toggle {
+display:none;
+}
+
+label {
+display:none;
+}
+
+ul.menu-items, #toggle:checked ~ ul.menu-items {
+display: flex;
+margin: 0;
+list-style-type: none;
+text-align: right;
+border-top:none;
+  width: 60%;
+  justify-content: space-between;
+}
+  ul.menu-items {
+padding: 20px 0 40px 0;
+
+}
+}
+/* Imported CSS */
+
+/* New Slider CSS Begin */
+
+.carousel {
+    position: relative;
+    margin-top: 26px;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  height:500px;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+/* FOR CLASSES .IMAGE-1, .IMAGE-2, AND .IMAGE-3, REPLACE THE BACKGROUND IMAGE URL WITH YOUR IMAGE URL. THIS SLIDER MUST HAVE 3 IMAGES TO FUNCTION PROPERLY */
+
+.image-1 {
+background-image: url(https://lindseymariegomez.github.io/fall-2020/img/fall-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-position: center center;
+}
+
+.image-2 {
+background-image: url(https://lindseymariegomez.github.io/fall-2020/img/fall-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-position: center center;
+}
+
+.image-3 {
+background-image: url(https://lindseymariegomez.github.io/fall-2020/img/fall-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-position: center center;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+  height:500px;
+}
+
+
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 2%;
+}
+
+.carousel-control.next {
+    right: 2%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+bottom:2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #428bca;
+}
+
+#title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+/* New Slider CSS End */
+
+/* Radio Button Tabs */
+
+.coffee-tabs, .tea-tabs {
+display:flex;
+-webkit-display:flex;
+flex-wrap: wrap;
+-webkit-flex-wrap:wrap;
+ box-sizing: border-box;
+}
+
+#hot-coffee + label, #iced-coffee + label, #hot-tea + label, #iced-tea + label {
+background: paleturquoise;
+  border:1px solid #333;
+  padding:1em;
+  cursor:pointer;
+  z-index: 1;
+  margin-left: -1px;
+}
+
+#hot-coffee + label + div, #iced-coffee + label + div, #hot-tea + label + div, #iced-tea + label + div  {
+width: 100%;
+padding: 1em;
+order: 1;
+-webkit-order: 1;
+  border: 1px solid #333;
+  margin-left:-1px;
+
+}
+
+#hot-coffee, #iced-coffee, .content, #iced-tea, #hot-tea {
+display:none;
+}
+
+#hot-coffee:checked + label, #iced-coffee:checked + label, #iced-tea:checked + label, #hot-tea:checked + label  {
+background-color: lightsalmon;
+}
+
+#hot-coffee:checked + label + div, #iced-coffee:checked + label + div, #iced-tea:checked + label + div, #hot-tea:checked + label + div {
+display:block;
+}
+/* Radio Button Tabs */
 
 h1 {
 
