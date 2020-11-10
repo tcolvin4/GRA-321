@@ -24,7 +24,7 @@ body {
   float: left;
 }
 .tab label {
-  background: #eee;
+  background: #C5ABDF;
   padding: 10px;
   border: 1px solid #ccc;
   margin-left: -1px;
@@ -247,3 +247,25 @@ bottom:2%;
 }
 
 /* New Slider CSS End */
+
+/*three columns for locations*/
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left, .middle {
+  width: 25%;
+}
+
+.right {
+  width: 45%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
