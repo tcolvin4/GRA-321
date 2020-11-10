@@ -108,8 +108,8 @@ section h1, p, ul, li {
   display:inline-block;
 }
 
-/* Carousel */
 
+/* Carousel */
 /* New Slider CSS Begin */
 
 .carousel {
@@ -132,21 +132,21 @@ section h1, p, ul, li {
 /* FOR CLASSES .IMAGE-1, .IMAGE-2, AND .IMAGE-3, REPLACE THE BACKGROUND IMAGE URL WITH YOUR IMAGE URL. THIS SLIDER MUST HAVE 3 IMAGES TO FUNCTION PROPERLY */
 
 .image-1 {
-background-image: url(https://lindseymariegomez.github.io/fall-2020/img/fall-4.jpg);
+background-image: url(https://raw.githubusercontent.com/tcolvin4/GRA-321/master/responsive-project/img/CDNbuilding.png);
   background-size: cover;
   background-repeat: no-repeat;
  background-position: center center;
 }
 
 .image-2 {
-background-image: url(https://lindseymariegomez.github.io/fall-2020/img/fall-3.jpg);
+background-image: url(https://raw.githubusercontent.com/tcolvin4/GRA-321/master/responsive-project/img/coffeeshop.png);
   background-size: cover;
   background-repeat: no-repeat;
  background-position: center center;
 }
 
 .image-3 {
-background-image: url(https://lindseymariegomez.github.io/fall-2020/img/fall-5.jpg);
+background-image: url(https://raw.githubusercontent.com/tcolvin4/GRA-321/master/responsive-project/img/coffeebeans.png);
   background-size: cover;
   background-repeat: no-repeat;
  background-position: center center;
